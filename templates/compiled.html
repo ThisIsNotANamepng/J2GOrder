@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Compile Joe2Go Order</title>
+  <link rel="shortcut icon" href="/static/favicon.ico">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  </head>
+  
+  <body>
+  <div style="height: 15%;"></div>
+  <div class="w3-container w3-mobile" style="width: 100%;">
+   <h2 style="font-size: 70px; text-align: center;">Compiled Order:</h2>
+   <h3 class="w3-display-middle" style="font-size: 40px; text-align: center;">{{ order }}<h3>
+
+  <div style="width: 100%;" class="w3-display-container">
+  
+  <form method="POST">
+  <br><br><br>
+   </form>
+  </div>
+
+
+  
+  <script>
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./serviceWorker.js')
+    .then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      console.log(registration.scope)
+      console.log(registration.scope)
+  
+    }).catch(function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+  </script>
+
+</body>
+</html>

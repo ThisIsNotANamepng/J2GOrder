@@ -1,0 +1,25 @@
+{
+  "short_name": "J2G Order",
+  "name": "Joe2Go Order",
+  "description": "Input your Joe2Go for the primary orderer to compile",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/static/images/coffee512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/static/images/coffee192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://J2GOrder.duckit.repl.co",
+  "background_color": "#8b4513",
+  "scope": "/",
+  "theme_color": "#8b4513",
+  "shortcuts": [
+
+  ]
+}
